@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+body{
+    line-height: 1.5;
+    font-family: font-family: 'Poppins', sans-serif;
+}
+
+*
+{padding: 0;
+margin: 0;
+font-family: 'Poppins', sans-serif;
+
+}
+
+
+.footer
+{
+    box-sizing: border-box;
+   color:cadetblue;
+   background-color: blanchedalmond;
+   padding: 70px 0;
+}
+
+
+
+.footer-col
+{  
+    width: 25%;
+    padding:0 2.5%;
+
+}
+
+.footer-col h4{
+    color:rgb(59, 101, 102);
+    padding-bottom: 1.5rem;
+    position: relative;
+    font-size: 1.5rem;
+
+}
+
+.footer-col h4::before{
+    content:"";
+    position: absolute;
+    left: 0;
+    bottom: 20px;
+    background-color: cadetblue;
+    height:2px;
+    box-sizing: border-box;
+    width:50px;
+}
+
+.footer-col ul{
+    list-style: none;
+}
+
+.footer-col ul li a
+{
+    color:cadetblue;
+    transition: all 0.3s ease-in-out ;
+
+}
+
+.footer-col ul li a:hover{
+    color: rgb(41, 79, 80);
+    padding-left: 10px;
+}
+
+.footer-col .social-links a{
+   display: inline-block;
+    height:40px;
+    width:40px;
+    background-color: cadetblue;
+    color:blanchedalmond;
+    border-radius: 50%;
+    text-align:center;
+    margin: 0 10px 10px 0;
+    
+    
+}
+
+.footer-col .social-links i{
+
+    line-height: 40px;
+    text-align:center;
+    transition: all 0.5s ease;
+}
+
+
+.footer-col .social-links a:hover{
+
+    color:cadetblue;
+    background-color: blanchedalmond;
+}
+i
+{
+    font-size: 1.5rem;
+}
